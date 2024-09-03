@@ -1,0 +1,61 @@
+textarea{
+    width: 100%;
+    resize: vertical;
+}
+.text-transform-main-div{
+    max-width: 1140px;
+    margin: auto;
+}
+.tranform-button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    min-width: 180px;
+    text-align: center;
+    margin-top: 15px;
+}
+.text-transform-div{
+    max-width: 700px;
+    margin: auto;
+}
+.error-message{
+    color: red;
+}
+.popup{
+    background-color: #00000080;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+.popup-innner-div{
+    background-color: white;
+    border-radius: 5px;
+    max-width: 500px;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.close-icon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
