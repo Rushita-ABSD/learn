@@ -20,7 +20,7 @@ textarea{
     margin: auto;
 }
 .error-message{
-    color: red;
+    /* color: red; */
 }
 .popup{
     background-color: #00000080;
